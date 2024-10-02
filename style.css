@@ -1,0 +1,121 @@
+.logo{
+    width: 100px;
+
+
+}
+.body{
+    font-family: Merriweather;
+    
+}
+.navbar{
+    background-color: bisque;
+    
+}
+.navbar-nav{
+    text-decoration: underline;
+    text-decoration-color: black;
+    gap: 100px;
+    font-size: xx-large;
+
+    
+}
+.product-section {
+  justify-content: space-around;
+    display: grid;
+    grid-template-columns: repeat(5,200px);
+    grid-template-columns: repeat(5,200px);
+    gap: 1rem;
+    padding: 2rem;
+  }
+  .product-card {
+    border: 1px solid #ddd;
+    padding: 1rem;
+    text-align: center;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+  }
+  .product-card img {
+    max-width: 100%;
+    height: auto;
+  }
+  .footer{
+    background-color: black;
+    color: white;
+    padding-top: 15px;
+    padding-bottom: 10px;
+  text-align: center;
+  }
+  .collapse{
+    
+    justify-content: space-around;
+  
+    
+  }
+  .parent{
+    display: auto;
+    position: relative;
+    display: grid;
+  }
+
+  .child{
+position: absolute;
+top: 60px;
+
+
+font-family: merriweather;
+
+
+  }
+.child h1{
+  position: absolute;
+  top: 1150%;
+  left: 65%;
+  font-weight: bolder;
+  color: salmon;
+  
+  
+}
+.child p{
+  position: absolute;
+  top: 1600%;
+  left:190% ;
+  color: black;
+  font-weight: bold;
+}
+.child h3{
+  font-size: xx-large;
+  font-weight: bolder;
+}
+
+.fa-square-instagram{
+  font-size: 20px;
+  color: red;
+  background-color: white;
+}
+.fa-x-twitter{
+  font-size: 20px;
+  color:black;
+  background-color: white;
+}
+.fa-square-facebook{
+  font-size: 20px;
+  color:blue;
+  background-color: white;
+}
+.sales{
+  font-weight: bolder;
+  text-transform: uppercase;
+  justify-content: space-around;
+  font-size: xx-large;
+  text-align: center;
+
+}
+@media (max-width: 768px) {
+  .header {
+    font-size: 0.9rem;
+  }
+  .product-section {
+    grid-template-columns: 1fr;
+  }
+
+}
